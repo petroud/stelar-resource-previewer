@@ -31,6 +31,13 @@ class MinioClient:
             session_token=session_token
         )
 
+    def client(self):
+        """
+        Returns the MinIO client instance.
+        :return: The MinIO client instance.
+        """
+        return self.client
+
     def _parse_s3_path(self, s3_path):
         """
         Parse an S3 path.

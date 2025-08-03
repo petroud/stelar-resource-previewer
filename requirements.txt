@@ -11,3 +11,8 @@ streamlit
 pandas
 PyPDF2
 streamlit-pdf-viewer
+rasterio
+matplotlib
+geopandas
+folium==0.20.0
+fiona==1.10.1
